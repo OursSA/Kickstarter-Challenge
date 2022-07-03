@@ -4,7 +4,7 @@ The objective is to identify what launch window and funding goal would contribut
 
 ### Analysis of Outcomes Based on Launch Date
 
-[Chart of outcomes based on launch date](main/Theater_Outcomes_vs_Launch.png)
+[Chart of outcomes based on launch date](Theater_Outcomes_vs_Launch.png)
 In general, the greatest number of campaigns tended to launch in May and June. These were also the months with the highest success rate.
 The rate of successful campaigns trends downward toward the autumn and winter months, with December launches seeming particularly unlikely to be successful.
 The number of canceled campaigns remains quite low compared to those that are completed throughout the year, but there is a small uptick in canceled campaigns in January.
