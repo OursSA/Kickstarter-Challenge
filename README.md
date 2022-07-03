@@ -23,7 +23,7 @@ This resulted in the following [Chart of outcomes based on launch date.](Theater
 ### Analysis of Outcomes Based on Goals
 
 Because the subcategories had already been split from the parent categories in the creation of the previous table, it was now possible to identify kickstarters for plays specifically using the "subcategory" column.
-From there, a new sheet was created. As shown in [this screenshot,] (Goalstable.png) the goal categories were entered manually based on the outline in the challenge document.
+From there, a new sheet was created. As shown in [this screenshot,](Goalstable.png) the goal categories were entered manually based on the outline in the challenge document.
 It then became necessary to reference the original Kickstarter sheet in a series of COUNTIFS functions to determine how many projects in each range succeeded, failed, or were canceled.
 For example, the counting for the $1000 to $4999 bin was done using the command =COUNTIFS(Kickstarter!F:F,"successful",Kickstarter!R:R,"plays",Kickstarter!D:D,">=1000",Kickstarter!D:D,"<=4999"). In subsequent columns, the word "successful" was swapped out to the corresponding column label.
 Then, the total number of projects in each range was calculated using the SUM command, such as =SUM(B3:D3)
